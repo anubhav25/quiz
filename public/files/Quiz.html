@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Quiz</title>
+	<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main_page">
+			<div class="main_container">
+				<div class="logo">
+					<div class="logo_box">
+						<img src="../images/logo.png" alt="">
+					</div>
+				</div>
+				<div class="empty quiz_list" >
+				<h1>
+				No Quiz Present.
+				<br>
+				Please Wait for Admin to add a Quiz.
+				</h1>
+				</div>
+				<div class="quiz_list" id="show" style="display: none;">
+					<table id="table" >
+						<thead>
+							<tr>
+								<th style="display: none;">ID</th>
+								<th>TITLE</th>
+								<th>DESC</th>
+								<th>TIME Based</th>
+								<th>TIME ALLOWED</th>
+								<th>NO OF QUE.</th>
+								<th>TAKE QUIZ</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td style="display: none;">ID</td>
+								<td>TITLE</td>
+								<td>DESC</td>
+								<td>TIME Based</td>
+								<td>TIME ALLOWED</td>
+								<td>NO OF QUE.</td>
+								<td><button class="take_quiz_btn">TAKE QUIZ</button></td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="Quiz.js" ></script>
+</body>
+</html>
